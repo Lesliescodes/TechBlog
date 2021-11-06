@@ -1,0 +1,49 @@
+<html>
+
+  <head>
+    <meta charset="UTF-8" />
+    {{! <meta name="viewport" content="width=1649, maximum-scale=1.0" /> }}
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="https://animaproject.s3.amazonaws.com/home/favicon.png"
+    />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="/css/globals-too.css" />
+    <meta name="author" content="AnimaApp.com - Design to code, Automated." />
+    <title>TechBlog</title>
+  </head>
+
+  <body>
+    <div class="wrapper">
+
+      <div class="navigation">
+        {{! logo }}
+        <div class="logo">
+
+          <h1>Tech Blog</h1>
+        </div>
+
+        <ul class="navbar">
+          <li><a href="/">HOME</a></li>
+          <li><a href="/dashboard">DASHBOARD</a></li>
+          <li><a href="/logout" id="logout">LOGOUT</a></li>
+        </ul>
+
+      </div>
+
+      <main>
+
+        {{{body}}}
+
+      </main>
+
+    </div>
+
+    <script src="/javascript/logout.js"></script>
+
+  </body>
+
+</html>
